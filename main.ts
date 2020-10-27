@@ -5,6 +5,6 @@ basic.forever(function () {
     } else {
         led.setBrightness(14)
         basic.showIcon(IconNames.Sad)
-        basic.pause(1000)
+        basic.pause(5000)
     }
 })
